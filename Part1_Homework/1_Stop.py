@@ -22,3 +22,11 @@
 #   - Stop only when total >= target
 
 # Write your code here:
+
+target = int(input("Type in a number: "))
+total = 0
+while total <= target:
+    number = int(input("Type in a number: "))
+    total += number
+print("Total has reached {total}")
+    

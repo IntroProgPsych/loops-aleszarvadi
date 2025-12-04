@@ -19,3 +19,5 @@
 #   - Update the maximum whenever you read a number that is larger.
 
 # Write your code here:
+
+numbers = int(input("Type in a number: "))
