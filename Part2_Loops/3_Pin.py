@@ -20,3 +20,11 @@
 
 
 # Write your code here:
+
+pin = input("Type in pin code: ")
+counter = 1
+while pin != "4321":
+    print("Wrong") 
+    pin = input("Type in pin code: ")
+    counter += 1
+print(f"Correct! It took you {counter} attempts") 

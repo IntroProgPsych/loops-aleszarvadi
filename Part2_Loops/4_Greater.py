@@ -11,3 +11,7 @@
 # 4
 
 # Write your code here:
+n = int(input("Type in number: "))
+for number in range(1, n-1):
+    print(number)
+    
